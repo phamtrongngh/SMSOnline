@@ -1,0 +1,227 @@
+﻿
+@{
+    ViewBag.Title = "FriendList";
+}
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<br />
+<div class="modal" id="modalsexuathien">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <h4>Details</h4>
+                <div>
+                    <label>Name: </label>
+
+                </div>
+                <div>
+                    <label>Gender: </label>
+
+                </div>
+                <div>
+                    <label>DOB</label>
+
+                </div>
+                <div>
+                    <label>Marital Status: </label>
+
+                </div>
+                <div>
+                    <label>Hobbies: </label>
+
+                </div>
+                <div>
+                    <label>Like: </label>
+
+                </div>
+                <div>
+                    <label>Dislike: </label>
+
+                </div>
+                <div>
+                    <label>Cuisines: </label>
+
+                </div>
+                <div>
+                    <label>Sports: </label>
+
+                </div>
+                <div>
+                    <label>Image: </label>
+
+                </div>
+                <div>
+                    <label>Qualification: </label>
+
+                </div>
+                <div>
+                    <label>School: </label>
+
+                </div>
+                <div>
+                    <label>College: </label>
+
+                </div>
+                <div>
+                    <label>Work status: </label>
+
+                </div>
+                <div>
+                    <label>Organization: </label>
+
+                </div>
+                <div>
+                    <label>Designation: </label>
+
+                </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">View all friend</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#request">View Friend request</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#sendrequest">Send Friend request</a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div id="home" class="container tab-pane active">
+            <br>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Avatar</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th></th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="~/Images/images1.png" width="50px" height="50px" alt="Alternate Text" /></td>
+                            <td>Nghia</td>
+                            <td>nghia@gmail.com</td>
+                            <td>012345678</td>
+                            <td>
+                                <button class="btn btn-info" data-target="#modalsexuathien" data-toggle="modal">Watch Face</button>
+                                <button class="btn btn-danger">UnFriend</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/Images/SMS-Logo.png" width="50px" height="50px" alt="Alternate Text" /></td>
+                            <td>Chuong</td>
+                            <td>Chuong@gmail.com</td>
+                            <td>098752431</td>
+                            <td>
+                                <button class="btn btn-info" data-target="#modalsexuathien" data-toggle="modal">Watch Face</button>
+                                <button class="btn btn-danger">UnFriend</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+        </div>
+
+        <div id="request" class="container tab-pane fade">
+            <br>
+            <table class="table">
+
+                <tr>
+                    <th>Avatar</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th></th>
+
+                </tr>
+
+                <tr>
+                    <td><img src="~/Images/images1.png" width="50px" height="50px" alt="Alternate Text" /></td>
+                    <td>Nghia</td>
+                    <td>012345678</td>
+                    <td>
+                        <button class="btn btn-info">Accept</button>
+                        <button class="btn btn-danger">Cancel</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="~/Images/SMS-Logo.png" width="50px" height="50px" alt="Alternate Text" /></td>
+                    <td>Chuong</td>
+                    <td>098752431</td>
+                    <td>
+                        <button class="btn btn-info">Accept</button>
+                        <button class="btn btn-danger">Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="sendrequest" class="container tab-pane fade">
+           
+                <div id="searchF">
+                    <input type="text" />
+                    <button> <i class="fa fa-search"></i></button>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Avatar</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th></th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="~/Images/images1.png" width="50px" height="50px" alt="Alternate Text" /></td>
+                            <td>Nghia</td>
+                            <td>nghia@gmail.com</td>
+                            <td>012345678</td>
+                            <td>
+                                <button class="btn btn-info">Add Friend</button>
+                                <button class="btn btn-danger">Friend request Sent</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/Images/SMS-Logo.png" width="50px" height="50px" alt="Alternate Text" /></td>
+                            <td>Chuong</td>
+                            <td>Chuong@gmail.com</td>
+                            <td>098752431</td>
+                            <td>
+                                <button class="btn btn-info">Add Friend</button>
+                                <button class="btn btn-danger">Friend request Sent</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+        </div>
+    </div>
+</div>
+

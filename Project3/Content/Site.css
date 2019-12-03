@@ -1,0 +1,76 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.mynavbar {
+    background-color: #191717d9;
+}
+
+.dropdownbutton {
+    background-color: #3b3737d9;
+}
+
+.caret {
+    color: #fff;
+}
+
+.namelogo {
+    font-size: large;
+    color: #61a8c4 !important;
+}
+
+.users {
+    font-size: large;
+    color: #61a8c4 !important;
+}
+
+.settingname {
+    font-size: medium;
+    color: #61a8c4 !important;
+}
+
+
+
+#searchF {
+    text-align: right;
+}
+
+.box-list-friend {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid red;
+    width: 20%;
+}
+
+.box-chat {
+    display: inline-block;
+    border: 1px solid blue;
+    width: 79%;
+}
+
+.chat-box {
+    border: 1px solid green;
+    height: 500px;
+}
+
+.buttonsend {
+    text-align: right;
+}
+
+.texnumber {
+    text-align: right;
+}

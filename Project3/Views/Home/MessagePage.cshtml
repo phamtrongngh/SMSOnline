@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "MessagePage";
+}
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<br />
+<div class="modal" id="modalnumber">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Add a number</h4>
+            </div>
+
+            <!-- Modal body -->
+            <div style="text-align:center" class="modal-body"  >
+                <h4 class="modal-title">Add the number you wanna send</h4>
+                <div>
+                    <input type="text" 
+                           placeholder="Enter a number" />
+
+                    <button class="btn" type="button">OK</button>
+              </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class="box-list-friend">
+        <h1>List friend </h1>
+        <div>
+            <ul class="nav">
+                <li>
+                    <img src="~/Images/images.png" width="50px" height="50px" alt="" />Nghia
+                </li>
+            </ul>
+            <ul class="nav">
+                <li>
+                    <img src="~/Images/images.png" width="50px" height="50px" alt="" />Quang
+                </li>
+            </ul>
+            <ul class="nav">
+                <li>
+                    <img src="~/Images/images.png" width="50px" height="50px" alt="" />Chuong
+                </li>
+            </ul>
+            <ul class="nav">
+                <li>
+                    <img src="~/Images/images.png" width="50px" height="50px" alt="" />Thinh
+                </li>
+            </ul>
+            <ul class="nav">
+                <li>
+                    <button class="btn btn-success"  data-target="#modalnumber" data-toggle="modal"><i class="fa fa-plus-circle"></i>Add a number</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="box-chat">
+        <div class="chat-area">
+            <h3>To Nghia</h3>
+            <div class="chat-box">
+                <textarea cols="500" rows="25"></textarea>
+            </div>
+        </div>
+        <div class="buttonsend">
+            <button class="btn btn-info">Send</button>
+        </div>
+    </div>
+</div>

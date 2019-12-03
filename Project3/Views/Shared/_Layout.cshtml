@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top mynavbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <img src="~/Images/SMS-Logo.png" height="50" width="50" />
+
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="https://localhost:44399/Home/Index" class="namelogo">Online SMS Site</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav nav navbar-right">
+
+                    <li>
+                        <a href="#" class="namelogo">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="namelogo">AddContact</a>
+                    </li>
+                    <li>
+                        <a href="https://localhost:44399/Home/MessagePage" class="namelogo">Message</a>
+                    </li>
+                    <li>
+                        <a href="#" class="namelogo">Profile</a>
+                    </li>
+                    <li>
+                        <a href="https://localhost:44399/Home/FriendList" class="namelogo">Friends</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle dropdownbutton" type="button" data-toggle="dropdown">
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                             
+                                <li><a href="#" class="settingname">Settings</a></li>
+                                <li><a href="#" class="settingname">Log out</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="users">Hi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+
+    </div>
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
