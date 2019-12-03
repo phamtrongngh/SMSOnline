@@ -95,6 +95,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\avatar.png" />
     <Content Include="Images\images.png" />
     <Content Include="Images\images1.png" />
     <Content Include="Images\SMS-Logo.png" />
