@@ -14,14 +14,15 @@
             </div>
 
             <!-- Modal body -->
-            <div style="text-align:center" class="modal-body">
+            <div class="modal-body ">
                 <h4 class="modal-title">Add the number you wanna send</h4>
-                <div>
-                    <input type="text"
-                           placeholder="Enter a number" />
-
-                    <button class="btn" type="button">OK</button>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter a number">
+                    <span class="input-group-btn">
+                        <button class="btn btn-info"  type="submit">OK</button>
+                    </span>
                 </div>
+
             </div>
             <!-- Modal footer -->
             <div class="modal-footer">
@@ -38,14 +39,14 @@
         <div class="panel panel-default">
             <div class="panel-heading clearfix">
                 <h2 class="panel-title pull-left">Friend List</h2>
-                <button class="pull-right btn btn-success"> <span class="glyphicon glyphicon-plus"></span> Add</button>
+                <button class="pull-right btn btn-success" data-target="#modalnumber" data-toggle="modal"> <span class="glyphicon glyphicon-plus"></span> Add</button>
             </div>
-            <div class="panel-body message-page">
+            <div class="panel-body ">
                 <ul class="list-group">
                     <li class="list-group-item">
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
+                                <a href="#" 11111111">
                                     <img src="~/Images/avatar.png" width="32"  height="32"/>
                                 </a>
                             </div>
@@ -58,7 +59,7 @@
                         <div class="media">
                             <div class="media-left">
                                 <a href="#">
-                                    <img src="~/Images/avatar.png" width="32" height="32" />
+                                      <img src="~/Images/avatar.png" width="32" height="32" />
                                 </a>
                             </div>
                             <div class="media-body">
@@ -69,7 +70,7 @@
                     <li class="list-group-item">
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
+                                <a href="#" >
                                     <img src="~/Images/avatar.png" width="32" height="32" />
                                 </a>
                             </div>
@@ -102,6 +103,7 @@
                             </div>
                         </div>
                     </li>
+
                 </ul>
             </div>
         </div>
